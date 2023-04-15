@@ -1,13 +1,3 @@
-/**
- * Runs a report of a Google Analytics 4 property ID. Creates a sheet with the
- * report.
- * 
- * To see all the API dimensions and detrics, please visit:
- * https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema 
- * 
- * More samples:
- * https://developers.google.com/apps-script/advanced/analyticsdata
- */
 function getData() {  
   propertyId = globalThis.properties.getProperty("ga_property_id");
 
